@@ -24,6 +24,8 @@ namespace Website
         [InlineData("/lib/editor-md/editormd.js", "https://github.com/pandao/editor.md")]
         [InlineData("/lib/file-saver/FileSaver.min.js", "http://purl.eligrey.com/github/FileSaver.js")]
         [InlineData("/lib/font-awesome/css/all.min.css", "Font Awesome Free 5.13.0")]
+        [InlineData("/lib/jquery-validation/jquery.validate.min.js", "jQuery Validation Plugin - v1.19.1")]
+        [InlineData("/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js", "jquery.validate.unobtrusive")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);

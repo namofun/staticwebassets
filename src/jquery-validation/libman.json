@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery-validate@1.19.1",
+      "destination": "wwwroot/",
+      "files": [
+        "additional-methods.js",
+        "additional-methods.min.js",
+        "jquery.validate.js",
+        "jquery.validate.min.js",
+        "localization/messages_zh.js",
+        "localization/messages_zh.min.js",
+        "localization/messages_zh_TW.js",
+        "localization/messages_zh_TW.min.js"
+      ]
+    }
+  ]
+}

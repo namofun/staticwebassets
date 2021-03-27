@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.FontAwesome", "font-awesome\SatelliteSite.StaticWebAssets.FontAwesome.csproj", "{7E452E41-DAD4-4E44-8BDA-8F4433F49183}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.JqueryValidation", "jquery-validation\SatelliteSite.StaticWebAssets.JqueryValidation.csproj", "{0EB07F37-4B30-44A2-A9F9-09E3B7A22711}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.JqueryValidationUnobtrusive", "jquery-validation-unobtrusive\SatelliteSite.StaticWebAssets.JqueryValidationUnobtrusive.csproj", "{4CF91553-84E7-42FC-AA9D-6A226F713321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{7E452E41-DAD4-4E44-8BDA-8F4433F49183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E452E41-DAD4-4E44-8BDA-8F4433F49183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E452E41-DAD4-4E44-8BDA-8F4433F49183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB07F37-4B30-44A2-A9F9-09E3B7A22711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB07F37-4B30-44A2-A9F9-09E3B7A22711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB07F37-4B30-44A2-A9F9-09E3B7A22711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB07F37-4B30-44A2-A9F9-09E3B7A22711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF91553-84E7-42FC-AA9D-6A226F713321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF91553-84E7-42FC-AA9D-6A226F713321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF91553-84E7-42FC-AA9D-6A226F713321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF91553-84E7-42FC-AA9D-6A226F713321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

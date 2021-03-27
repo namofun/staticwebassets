@@ -350,3 +350,5 @@ src/editor-md/wwwroot/
 src/file-saver/wwwroot/
 src/font-awesome/wwwroot/
 src/jquery/wwwroot/
+src/jquery-validation/wwwroot/
+src/jquery-validation-unobtrusive/wwwroot/
