@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageStaticWebAssetBasePath>/lib/diff-match-patch</PackageStaticWebAssetBasePath>
+    <Authors>google</Authors>
+    <Description>diff_match_patch 2018 placed at /lib/diff-match-patch/**</Description>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+</Project>

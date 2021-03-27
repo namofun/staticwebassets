@@ -35,6 +35,7 @@ namespace Website
         [InlineData("/lib/qrcodejs/qrcode.min.js", "var QRCode;")]
         [InlineData("/lib/nelmioapidoc/init-swagger-ui.js", "")]
         [InlineData("/lib/select2/js/select2.min.js", "Select2 4.0.12")]
+        [InlineData("/lib/diff-match-patch/main.js", "Diff Match and Patch")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);
