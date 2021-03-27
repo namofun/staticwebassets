@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>4.4.0</PackageVersion>
+    <PackageStaticWebAssetBasePath>/lib/bootstrap</PackageStaticWebAssetBasePath>
+    <Authors>twitter</Authors>
+    <Description>twitter-bootstrap 4.4.0 placed at /lib/bootstrap/**</Description>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.76" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="libman.json" Pack="false">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

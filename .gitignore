@@ -341,4 +341,5 @@ healthchecksdb
 
 # Custom
 src/ace/wwwroot/
+src/bootstrap/wwwroot/
 src/jquery/wwwroot/
