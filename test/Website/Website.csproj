@@ -9,6 +9,7 @@
     <PackageReference Include="SatelliteSite.StaticWebAssets.Jquery" Version="3.4.1" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.AceEditor" Version="1.4.9" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.Bootstrap4" Version="4.4.0" />
+    <PackageReference Include="SatelliteSite.StaticWebAssets.BootstrapToggle" Version="2.2.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
