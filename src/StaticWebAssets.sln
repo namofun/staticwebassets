@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.ClipboardJs", "clipboard-js\SatelliteSite.StaticWebAssets.ClipboardJs.csproj", "{12DD61E3-7421-4E83-A892-12B319AB9897}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.D3", "d3\SatelliteSite.StaticWebAssets.D3.csproj", "{83F3B590-574D-4E76-88F4-06A02384732F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{12DD61E3-7421-4E83-A892-12B319AB9897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12DD61E3-7421-4E83-A892-12B319AB9897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12DD61E3-7421-4E83-A892-12B319AB9897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F3B590-574D-4E76-88F4-06A02384732F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F3B590-574D-4E76-88F4-06A02384732F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F3B590-574D-4E76-88F4-06A02384732F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F3B590-574D-4E76-88F4-06A02384732F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
