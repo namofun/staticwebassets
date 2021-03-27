@@ -21,6 +21,7 @@ namespace Website
         [InlineData("/lib/clipboard-js/clipboard.min.js", "clipboard.js v2.0.6")]
         [InlineData("/lib/d3/d3.min.js", "this.d3=")]
         [InlineData("/lib/datatables/js/jquery.dataTables.min.js", "DataTables 1.10.20")]
+        [InlineData("/lib/editor-md/editormd.js", "https://github.com/pandao/editor.md")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);

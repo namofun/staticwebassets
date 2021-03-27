@@ -13,6 +13,7 @@
     <PackageReference Include="SatelliteSite.StaticWebAssets.ClipboardJs" Version="2.0.6" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.D3" Version="3.5.5" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.DataTables" Version="1.10.20" />
+    <PackageReference Include="SatelliteSite.StaticWebAssets.EditorMd" Version="1.5.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />

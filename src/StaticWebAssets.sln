@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.DataTables", "datatables\SatelliteSite.StaticWebAssets.DataTables.csproj", "{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.EditorMd", "editor-md\SatelliteSite.StaticWebAssets.EditorMd.csproj", "{BC819F6A-0742-4519-8EE7-28CC41D0AC5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC819F6A-0742-4519-8EE7-28CC41D0AC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC819F6A-0742-4519-8EE7-28CC41D0AC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC819F6A-0742-4519-8EE7-28CC41D0AC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC819F6A-0742-4519-8EE7-28CC41D0AC5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
