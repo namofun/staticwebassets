@@ -347,4 +347,6 @@ src/clipboard-js/wwwroot/
 src/d3/wwwroot/
 src/datatables/wwwroot/
 src/editor-md/wwwroot/
+src/file-saver/wwwroot/
+src/font-awesome/wwwroot/
 src/jquery/wwwroot/

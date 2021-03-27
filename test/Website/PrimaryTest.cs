@@ -22,6 +22,8 @@ namespace Website
         [InlineData("/lib/d3/d3.min.js", "this.d3=")]
         [InlineData("/lib/datatables/js/jquery.dataTables.min.js", "DataTables 1.10.20")]
         [InlineData("/lib/editor-md/editormd.js", "https://github.com/pandao/editor.md")]
+        [InlineData("/lib/file-saver/FileSaver.min.js", "http://purl.eligrey.com/github/FileSaver.js")]
+        [InlineData("/lib/font-awesome/css/all.min.css", "Font Awesome Free 5.13.0")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);
