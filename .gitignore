@@ -340,4 +340,5 @@ ASALocalRun/
 healthchecksdb
 
 # Custom
+src/ace/wwwroot/
 src/jquery/wwwroot/
