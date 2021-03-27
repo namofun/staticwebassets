@@ -33,7 +33,7 @@ jobs:
       testRunTitle: 'Run unit tests'
     displayName: 'Test for Assets Discovery'
 
-  - script: dotnet publish .\test\Website\Website.csproj -c Release -o publish
+  - script: dotnet publish ./test/Website/Website.csproj -c Release -o publish
     displayName: 'Test Project Publishing'
 
   - task: DotNetCoreCLI@2
