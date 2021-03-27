@@ -27,11 +27,15 @@ namespace Website
         [InlineData("/lib/jquery-validation/jquery.validate.min.js", "jQuery Validation Plugin - v1.19.1")]
         [InlineData("/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js", "jquery.validate.unobtrusive")]
         [InlineData("/lib/katex/katex.min.css", "font-family:KaTeX_AMS;")]
+        [InlineData("/lib/jscolor/jscolor.min.js", "var jscolor={")]
+        [InlineData("/lib/jscolor/arrow.gif", "")]
+        [InlineData("/lib/jscolor/cross.gif", "")]
+        [InlineData("/lib/jscolor/hs.png", "")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);
             response.EnsureSuccessStatusCode();
-            Assert.Contains(flagSubstring, await response.Content.ReadAsStringAsync());
+			if (!string.IsNullOrEmpty(flagSubstring)) Assert.Contains(flagSubstring, await response.Content.ReadAsStringAsync());
         }
     }
 }
