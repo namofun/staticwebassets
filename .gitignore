@@ -345,4 +345,5 @@ src/bootstrap/wwwroot/
 src/bootstrap-toggle/wwwroot/
 src/clipboard-js/wwwroot/
 src/d3/wwwroot/
+src/datatables/wwwroot/
 src/jquery/wwwroot/

@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.D3", "d3\SatelliteSite.StaticWebAssets.D3.csproj", "{83F3B590-574D-4E76-88F4-06A02384732F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.DataTables", "datatables\SatelliteSite.StaticWebAssets.DataTables.csproj", "{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{83F3B590-574D-4E76-88F4-06A02384732F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F3B590-574D-4E76-88F4-06A02384732F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F3B590-574D-4E76-88F4-06A02384732F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BF3E7A-3B0C-4FFF-B87E-61E9C3E0FC2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
