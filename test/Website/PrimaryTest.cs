@@ -18,6 +18,7 @@ namespace Website
         [InlineData("/lib/ace/ace.min.js", "\"ace/lib/dom\"")]
         [InlineData("/lib/bootstrap/css/bootstrap.min.css", "Bootstrap v4.4.0")]
         [InlineData("/lib/bootstrap-toggle/css/bootstrap2-toggle.min.css", "bootstrap2-toggle.css v2.2.0")]
+        [InlineData("/lib/clipboard-js/clipboard.min.js", "clipboard.js v2.0.6")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);

@@ -343,4 +343,5 @@ healthchecksdb
 src/ace/wwwroot/
 src/bootstrap/wwwroot/
 src/bootstrap-toggle/wwwroot/
+src/clipboard-js/wwwroot/
 src/jquery/wwwroot/
