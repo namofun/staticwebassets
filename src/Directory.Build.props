@@ -1,0 +1,16 @@
+<Project>
+
+  <PropertyGroup>
+    <ResolveCurrentProjectStaticWebAssetsInputsDependsOn>
+      SetStaticWebAssetsBasePath;
+      $(ResolveCurrentProjectStaticWebAssetsInputsDependsOn)
+    </ResolveCurrentProjectStaticWebAssetsInputsDependsOn>
+  </PropertyGroup>
+
+  <Target Name="SetStaticWebAssetsBasePath">
+    <PropertyGroup>
+      <StaticWebAssetBasePath>$(PackageStaticWebAssetBasePath)</StaticWebAssetBasePath>
+    </PropertyGroup>
+  </Target>
+
+</Project>
