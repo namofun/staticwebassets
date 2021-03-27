@@ -11,10 +11,7 @@ namespace Website
 
         public void Configure(IApplicationBuilder app)
         {
-            app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
-            app.UseRouting();
-            app.UseEndpoints(_ => { });
         }
     }
 }

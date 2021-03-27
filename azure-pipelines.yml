@@ -24,7 +24,14 @@ jobs:
       command: 'custom'
       custom: 'pack'
       arguments: './src/StaticWebAssets.sln -c Release -o packages'
-    displayName: 'Package for NuGet'
+    displayName: 'Create NuGet Packages'
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'test'
+      projects: './test/StaticAssetsTest.sln'
+      testRunTitle: 'Run unit tests'
+    displayName: 'Test for Assets Discovery'
 
   - task: DotNetCoreCLI@2
     inputs:
@@ -39,3 +46,4 @@ jobs:
       custom: 'nuget'
       arguments: 'push --skip-duplicate -s https://nuget.xylab.fun/v3/index.json -k $(NUGET_KEY) "packages/**/*.nupkg"'
     displayName: 'Push to NuGet Feed'
+    condition: startsWith(variables['Build.SourceBranch'], 'refs/tags/')
