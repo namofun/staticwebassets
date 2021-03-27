@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "qrcodejs@1.0.0",
+      "destination": "wwwroot/",
+      "files": [
+        "qrcode.js",
+        "qrcode.min.js"
+      ]
+    }
+  ]
+}

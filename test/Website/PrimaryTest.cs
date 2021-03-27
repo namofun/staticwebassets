@@ -31,6 +31,8 @@ namespace Website
         [InlineData("/lib/jscolor/arrow.gif", "")]
         [InlineData("/lib/jscolor/cross.gif", "")]
         [InlineData("/lib/jscolor/hs.png", "")]
+        [InlineData("/lib/nvd3/nv.d3.min.js", "nvd3 version 1.8.6")]
+        [InlineData("/lib/qrcodejs/qrcode.min.js", "var QRCode;")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);

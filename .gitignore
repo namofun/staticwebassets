@@ -354,3 +354,5 @@ src/jquery-validation/wwwroot/
 src/jquery-validation-unobtrusive/wwwroot/
 src/jscolor/wwwroot/*.js
 src/katex/wwwroot/
+src/nvd3/wwwroot/
+src/qrcodejs/wwwroot/

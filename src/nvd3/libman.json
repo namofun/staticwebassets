@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "nvd3@1.8.6",
+      "destination": "wwwroot/",
+      "files": [
+        "nv.d3.min.css",
+        "nv.d3.min.js"
+      ]
+    }
+  ]
+}

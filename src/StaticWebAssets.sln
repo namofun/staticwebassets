@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.JsColor", "jscolor\SatelliteSite.StaticWebAssets.JsColor.csproj", "{F1B78ACD-2CAE-47BD-8260-EC7DF88E7685}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Nvd3", "nvd3\SatelliteSite.StaticWebAssets.Nvd3.csproj", "{9F7A575D-4387-4442-AEB3-2320FE5822E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.QRCodeJs", "qrcodejs\SatelliteSite.StaticWebAssets.QRCodeJs.csproj", "{A50AB7BC-AE94-4E98-A1CA-A94A58C57A62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{F1B78ACD-2CAE-47BD-8260-EC7DF88E7685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B78ACD-2CAE-47BD-8260-EC7DF88E7685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B78ACD-2CAE-47BD-8260-EC7DF88E7685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7A575D-4387-4442-AEB3-2320FE5822E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7A575D-4387-4442-AEB3-2320FE5822E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7A575D-4387-4442-AEB3-2320FE5822E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7A575D-4387-4442-AEB3-2320FE5822E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50AB7BC-AE94-4E98-A1CA-A94A58C57A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50AB7BC-AE94-4E98-A1CA-A94A58C57A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50AB7BC-AE94-4E98-A1CA-A94A58C57A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50AB7BC-AE94-4E98-A1CA-A94A58C57A62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
