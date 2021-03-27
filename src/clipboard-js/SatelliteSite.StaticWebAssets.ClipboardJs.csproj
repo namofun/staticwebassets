@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
@@ -7,7 +7,7 @@
     <PackageVersion>2.0.6</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/clipboard-js</PackageStaticWebAssetBasePath>
     <Authors>zenorocha</Authors>
-    <Description>clipboard.js 2.0.6 placed at /lib/clipboard-js/clipboard.min.js</Description>
+    <Description>clipboard.js 2.0.6 placed at /lib/clipboard-js/**</Description>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 

@@ -4,4 +4,4 @@ This project is aimed at reduce the package restore time for static 3rd party we
 
 The one static web assets package are being separated into many smaller packages, which is more comfortable to upgrade or combine.
 
-The smaller packages are referenced by the larger project.
+The smaller packages are referenced by the larger project, which is aimed at caching the same files without download it again.

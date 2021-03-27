@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
@@ -7,7 +7,7 @@
     <PackageVersion>5.13.0</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/font-awesome</PackageStaticWebAssetBasePath>
     <Authors>font-awesome</Authors>
-    <Description>font-awesome 5.13.0 placed at /lib/font-awesome/css/all.min.css</Description>
+    <Description>font-awesome 5.13.0 placed at /lib/font-awesome/**</Description>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 

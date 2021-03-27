@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
@@ -7,7 +7,7 @@
     <PackageVersion>3.5.5</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/d3</PackageStaticWebAssetBasePath>
     <Authors>d3</Authors>
-    <Description>d3 3.5.5 placed at /lib/d3/d3.min.js</Description>
+    <Description>d3 3.5.5 placed at /lib/d3/**</Description>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 

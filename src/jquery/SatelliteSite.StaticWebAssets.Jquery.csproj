@@ -7,7 +7,7 @@
     <PackageVersion>3.4.1</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/jquery</PackageStaticWebAssetBasePath>
     <Authors>jQuery</Authors>
-    <Description>jQuery 3.4.1 placed at /lib/jquery/jquery.min.js</Description>
+    <Description>jQuery 3.4.1 placed at /lib/jquery/**</Description>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 

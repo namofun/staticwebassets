@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
@@ -7,7 +7,7 @@
     <PackageVersion>1.3.8</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/file-saver</PackageStaticWebAssetBasePath>
     <Authors>eligrey</Authors>
-    <Description>FileSaver.js 1.3.8 placed at /lib/file-saver/FileSaver.min.js</Description>
+    <Description>FileSaver.js 1.3.8 placed at /lib/file-saver/**</Description>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 

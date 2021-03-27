@@ -7,7 +7,7 @@
     <PackageVersion>1.4.9</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/ace</PackageStaticWebAssetBasePath>
     <Authors>ace</Authors>
-    <Description>ace 1.4.9 placed at /lib/ace/ace.min.js</Description>
+    <Description>ace 1.4.9 placed at /lib/ace/**</Description>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 
