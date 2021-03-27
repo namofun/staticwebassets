@@ -356,3 +356,5 @@ src/jscolor/wwwroot/*.js
 src/katex/wwwroot/
 src/nvd3/wwwroot/
 src/qrcodejs/wwwroot/
+src/select2/wwwroot/js/
+src/select2/wwwroot/css/select2.min.css

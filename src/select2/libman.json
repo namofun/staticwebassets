@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "select2@4.0.12",
+      "destination": "wwwroot/",
+      "files": [
+        "css/select2.min.css",
+        "js/i18n/zh-CN.js",
+        "js/i18n/en.js",
+        "js/i18n/zh-TW.js",
+        "js/select2.min.js",
+        "js/select2.full.min.js"
+      ]
+    }
+  ]
+}

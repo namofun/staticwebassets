@@ -34,6 +34,7 @@ namespace Website
         [InlineData("/lib/nvd3/nv.d3.min.js", "nvd3 version 1.8.6")]
         [InlineData("/lib/qrcodejs/qrcode.min.js", "var QRCode;")]
         [InlineData("/lib/nelmioapidoc/init-swagger-ui.js", "")]
+        [InlineData("/lib/select2/js/select2.min.js", "Select2 4.0.12")]
         public async Task FileExists(string requestPath, string flagSubstring)
         {
             var response = await Client.GetAsync(requestPath);
