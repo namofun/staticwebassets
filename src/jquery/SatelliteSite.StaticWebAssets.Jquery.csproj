@@ -1,9 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <PackageVersion>3.4.1</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/jquery</PackageStaticWebAssetBasePath>
+    <Authors>jQuery</Authors>
+    <Description>jQuery 3.4.1 placed at /lib/jquery/jquery.min.js</Description>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

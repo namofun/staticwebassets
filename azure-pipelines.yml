@@ -21,25 +21,21 @@ jobs:
   steps:
   - task: DotNetCoreCLI@2
     inputs:
-      command: 'build'
-    displayName: 'Build the Core'
-
-  - task: DotNetCoreCLI@2
-    inputs:
-      command: 'test'
-      testRunTitle: 'Run unit tests'
-    displayName: 'Run Unit Tests'
-
-  - task: DotNetCoreCLI@2
-    inputs:
       command: 'custom'
       custom: 'pack'
-      arguments: '-c Release -o $(Build.ArtifactStagingDirectory)'
+      arguments: './src/StaticWebAssets.sln -c Release -o packages'
     displayName: 'Package for NuGet'
 
   - task: DotNetCoreCLI@2
     inputs:
       command: 'custom'
+      custom: 'publish'
+      arguments: './test/StaticAssetsTest.sln -c Release -o publish'
+    displayName: 'Test Project Publishing'
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'custom'
       custom: 'nuget'
-      arguments: 'push --skip-duplicate -s https://nuget.xylab.fun/v3/index.json -k $(NUGET_KEY) "$(Build.ArtifactStagingDirectory)/**/*.nupkg"'
+      arguments: 'push --skip-duplicate -s https://nuget.xylab.fun/v3/index.json -k $(NUGET_KEY) "packages/**/*.nupkg"'
     displayName: 'Push to NuGet Feed'
