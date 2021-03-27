@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>3.3.0</PackageVersion>
+    <PackageStaticWebAssetBasePath>/lib/nelmioapidoc</PackageStaticWebAssetBasePath>
+    <Authors>nelmio</Authors>
+    <Description>nelmioapidoc 3.3.0 placed at /lib/nelmioapidoc/**</Description>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+</Project>
