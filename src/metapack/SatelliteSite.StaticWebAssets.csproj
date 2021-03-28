@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>$(StaticAssetVersion)</PackageVersion>
+    <Authors>yang-er</Authors>
+    <Description>Consists of all assets</Description>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ace\SatelliteSite.StaticWebAssets.Ace.csproj" />
+    <ProjectReference Include="..\clipboard-js\SatelliteSite.StaticWebAssets.Clipboard.csproj" />
+    <ProjectReference Include="..\d3\SatelliteSite.StaticWebAssets.D3.csproj" />
+    <ProjectReference Include="..\diff-match-patch\SatelliteSite.StaticWebAssets.DiffMatchPatch.csproj" />
+    <ProjectReference Include="..\editor-md\SatelliteSite.StaticWebAssets.EditorMd.csproj" />
+    <ProjectReference Include="..\file-saver\SatelliteSite.StaticWebAssets.FileSaver.csproj" />
+    <ProjectReference Include="..\jscolor\SatelliteSite.StaticWebAssets.Color.csproj" />
+    <ProjectReference Include="..\katex\SatelliteSite.StaticWebAssets.KaTeX.csproj" />
+    <ProjectReference Include="..\metapack-mini\SatelliteSite.StaticWebAssets.Basic.csproj" />
+    <ProjectReference Include="..\nvd3\SatelliteSite.StaticWebAssets.Nvd3.csproj" />
+    <ProjectReference Include="..\qrcodejs\SatelliteSite.StaticWebAssets.QRCode.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -6,26 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SatelliteSite.StaticWebAssets.jQuery" Version="3.4.1" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.Ace" Version="1.4.9" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.Bootstrap" Version="4.4.0" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.BootstrapToggle" Version="2.2.2" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.Clipboard" Version="2.0.6" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.D3" Version="3.5.5" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.DataTables" Version="1.10.20" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.EditorMd" Version="1.5.0" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.FileSaver" Version="1.3.8" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.FontAwesome" Version="5.13.0" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.jQueryValidate" Version="1.19.1" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.jQueryValidationUnobtrusive" Version="3.2.11" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.KaTeX" Version="0.10.2" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.Color" Version="1.4.5" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.Nvd3" Version="1.8.6" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.QRCode" Version="1.0.0" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.NelmioApiDoc" Version="3.3.0" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.Select2" Version="4.0.12" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.DiffMatchPatch" Version="1.0.0" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.Core" Version="1.0.11" />
+    <PackageReference Include="SatelliteSite.StaticWebAssets" Version="1.1.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />

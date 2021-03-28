@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>$(StaticAssetVersion)</PackageVersion>
+    <Authors>yang-er</Authors>
+    <Description>Consists of jQuery, Bootstrap, FontAwesome, DataTables, NelmioApiDoc</Description>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\bootstrap-toggle\SatelliteSite.StaticWebAssets.BootstrapToggle.csproj" />
+    <ProjectReference Include="..\bootstrap\SatelliteSite.StaticWebAssets.Bootstrap.csproj" />
+    <ProjectReference Include="..\datatables\SatelliteSite.StaticWebAssets.DataTables.csproj" />
+    <ProjectReference Include="..\font-awesome\SatelliteSite.StaticWebAssets.FontAwesome.csproj" />
+    <ProjectReference Include="..\jquery-validation-unobtrusive\SatelliteSite.StaticWebAssets.jQueryValidationUnobtrusive.csproj" />
+    <ProjectReference Include="..\jquery-validation\SatelliteSite.StaticWebAssets.jQueryValidate.csproj" />
+    <ProjectReference Include="..\jquery\SatelliteSite.StaticWebAssets.jQuery.csproj" />
+    <ProjectReference Include="..\nelmioapidoc\SatelliteSite.StaticWebAssets.NelmioApiDoc.csproj" />
+    <ProjectReference Include="..\select2\SatelliteSite.StaticWebAssets.Select2.csproj" />
+    <ProjectReference Include="..\xylab\SatelliteSite.StaticWebAssets.Core.csproj" />
+  </ItemGroup>
+
+</Project>

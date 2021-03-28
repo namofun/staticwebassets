@@ -3,7 +3,7 @@
   <PropertyGroup>
     <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
     <IncludeBuildOutput>false</IncludeBuildOutput>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <PackageVersion>1.5.0</PackageVersion>
     <PackageStaticWebAssetBasePath>/lib/editor-md</PackageStaticWebAssetBasePath>
     <Authors>pandao</Authors>

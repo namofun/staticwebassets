@@ -18,4 +18,8 @@
     </PropertyGroup>
   </Target>
 
+  <PropertyGroup>
+    <StaticAssetVersion>1.1.0</StaticAssetVersion>
+  </PropertyGroup>
+
 </Project>
