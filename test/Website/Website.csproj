@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="SatelliteSite.StaticWebAssets.jQuery" Version="3.4.1" />
-    <PackageReference Include="SatelliteSite.StaticWebAssets.AceEditor" Version="1.4.9" />
+    <PackageReference Include="SatelliteSite.StaticWebAssets.Ace" Version="1.4.9" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.Bootstrap" Version="4.4.0" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.BootstrapToggle" Version="2.2.2" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.Clipboard" Version="2.0.6" />

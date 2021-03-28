@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.jQuery", "jquery\SatelliteSite.StaticWebAssets.jQuery.csproj", "{7B6D5A7F-7F89-4DEB-89F6-6E9518CA810B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.AceEditor", "ace\SatelliteSite.StaticWebAssets.AceEditor.csproj", "{F0635804-E5EE-40E2-A0FB-C6B8FBF44B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Ace", "ace\SatelliteSite.StaticWebAssets.Ace.csproj", "{F0635804-E5EE-40E2-A0FB-C6B8FBF44B14}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Bootstrap", "bootstrap\SatelliteSite.StaticWebAssets.Bootstrap.csproj", "{DDA12E1A-87CA-4B83-A3EF-958ED8956ADA}"
 EndProject

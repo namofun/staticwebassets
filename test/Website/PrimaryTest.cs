@@ -15,7 +15,7 @@ namespace Website
 
         [Theory]
         [InlineData("/lib/jquery/jquery.min.js", "jQuery v3.4.1")]
-        [InlineData("/lib/ace/ace.min.js", "\"ace/lib/dom\"")]
+        [InlineData("/lib/ace/ace.js", "\"ace/lib/dom\"")]
         [InlineData("/lib/bootstrap/css/bootstrap.min.css", "Bootstrap v4.4.0")]
         [InlineData("/lib/bootstrap-toggle/css/bootstrap2-toggle.min.css", "bootstrap2-toggle.css v2.2.0")]
         [InlineData("/lib/clipboard-js/clipboard.min.js", "clipboard.js v2.0.6")]
