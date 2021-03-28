@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Jquery", "jquery\SatelliteSite.StaticWebAssets.Jquery.csproj", "{7B6D5A7F-7F89-4DEB-89F6-6E9518CA810B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.jQuery", "jquery\SatelliteSite.StaticWebAssets.jQuery.csproj", "{7B6D5A7F-7F89-4DEB-89F6-6E9518CA810B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.AceEditor", "ace\SatelliteSite.StaticWebAssets.AceEditor.csproj", "{F0635804-E5EE-40E2-A0FB-C6B8FBF44B14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Bootstrap4", "bootstrap\SatelliteSite.StaticWebAssets.Bootstrap4.csproj", "{DDA12E1A-87CA-4B83-A3EF-958ED8956ADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Bootstrap", "bootstrap\SatelliteSite.StaticWebAssets.Bootstrap.csproj", "{DDA12E1A-87CA-4B83-A3EF-958ED8956ADA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.BootstrapToggle", "bootstrap-toggle\SatelliteSite.StaticWebAssets.BootstrapToggle.csproj", "{5F7D0D76-67D2-457C-9DBA-79DFBA8137A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.ClipboardJs", "clipboard-js\SatelliteSite.StaticWebAssets.ClipboardJs.csproj", "{12DD61E3-7421-4E83-A892-12B319AB9897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Clipboard", "clipboard-js\SatelliteSite.StaticWebAssets.Clipboard.csproj", "{12DD61E3-7421-4E83-A892-12B319AB9897}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.D3", "d3\SatelliteSite.StaticWebAssets.D3.csproj", "{83F3B590-574D-4E76-88F4-06A02384732F}"
 EndProject
@@ -23,17 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.FontAwesome", "font-awesome\SatelliteSite.StaticWebAssets.FontAwesome.csproj", "{7E452E41-DAD4-4E44-8BDA-8F4433F49183}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.JqueryValidation", "jquery-validation\SatelliteSite.StaticWebAssets.JqueryValidation.csproj", "{0EB07F37-4B30-44A2-A9F9-09E3B7A22711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.jQueryValidate", "jquery-validation\SatelliteSite.StaticWebAssets.jQueryValidate.csproj", "{0EB07F37-4B30-44A2-A9F9-09E3B7A22711}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.JqueryValidationUnobtrusive", "jquery-validation-unobtrusive\SatelliteSite.StaticWebAssets.JqueryValidationUnobtrusive.csproj", "{4CF91553-84E7-42FC-AA9D-6A226F713321}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.jQueryValidationUnobtrusive", "jquery-validation-unobtrusive\SatelliteSite.StaticWebAssets.jQueryValidationUnobtrusive.csproj", "{4CF91553-84E7-42FC-AA9D-6A226F713321}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.KaTeX", "katex\SatelliteSite.StaticWebAssets.KaTeX.csproj", "{06F2A94B-8495-461E-8BEF-9784E7C2B256}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.JsColor", "jscolor\SatelliteSite.StaticWebAssets.JsColor.csproj", "{F1B78ACD-2CAE-47BD-8260-EC7DF88E7685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Color", "jscolor\SatelliteSite.StaticWebAssets.Color.csproj", "{F1B78ACD-2CAE-47BD-8260-EC7DF88E7685}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Nvd3", "nvd3\SatelliteSite.StaticWebAssets.Nvd3.csproj", "{9F7A575D-4387-4442-AEB3-2320FE5822E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.QRCodeJs", "qrcodejs\SatelliteSite.StaticWebAssets.QRCodeJs.csproj", "{A50AB7BC-AE94-4E98-A1CA-A94A58C57A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.QRCode", "qrcodejs\SatelliteSite.StaticWebAssets.QRCode.csproj", "{A50AB7BC-AE94-4E98-A1CA-A94A58C57A62}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.NelmioApiDoc", "nelmioapidoc\SatelliteSite.StaticWebAssets.NelmioApiDoc.csproj", "{4497D930-08F9-4B95-9F59-9C2730B9B27E}"
 EndProject
