@@ -25,6 +25,7 @@
     <PackageReference Include="SatelliteSite.StaticWebAssets.NelmioApiDoc" Version="3.3.0" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.Select2" Version="4.0.12" />
     <PackageReference Include="SatelliteSite.StaticWebAssets.DiffMatchPatch" Version="1.0.0" />
+    <PackageReference Include="SatelliteSite.StaticWebAssets.Core" Version="1.0.11" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />

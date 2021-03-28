@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.DiffMatchPatch", "diff-match-patch\SatelliteSite.StaticWebAssets.DiffMatchPatch.csproj", "{53F75D36-8EB0-4F44-8CF5-D5E1C799E62B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Core", "xylab\SatelliteSite.StaticWebAssets.Core.csproj", "{5B36C2BF-B66C-4592-8F53-A6F010E4417F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{53F75D36-8EB0-4F44-8CF5-D5E1C799E62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F75D36-8EB0-4F44-8CF5-D5E1C799E62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F75D36-8EB0-4F44-8CF5-D5E1C799E62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B36C2BF-B66C-4592-8F53-A6F010E4417F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B36C2BF-B66C-4592-8F53-A6F010E4417F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B36C2BF-B66C-4592-8F53-A6F010E4417F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B36C2BF-B66C-4592-8F53-A6F010E4417F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
