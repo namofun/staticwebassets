@@ -19,7 +19,6 @@
     <ProjectReference Include="..\jquery\SatelliteSite.StaticWebAssets.jQuery.csproj" />
     <ProjectReference Include="..\nelmioapidoc\SatelliteSite.StaticWebAssets.NelmioApiDoc.csproj" />
     <ProjectReference Include="..\select2\SatelliteSite.StaticWebAssets.Select2.csproj" />
-    <ProjectReference Include="..\xylab\SatelliteSite.StaticWebAssets.Core.csproj" />
   </ItemGroup>
 
 </Project>

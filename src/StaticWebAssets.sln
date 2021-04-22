@@ -41,8 +41,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAsse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.DiffMatchPatch", "diff-match-patch\SatelliteSite.StaticWebAssets.DiffMatchPatch.csproj", "{53F75D36-8EB0-4F44-8CF5-D5E1C799E62B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatelliteSite.StaticWebAssets.Core", "xylab\SatelliteSite.StaticWebAssets.Core.csproj", "{5B36C2BF-B66C-4592-8F53-A6F010E4417F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatelliteSite.StaticWebAssets", "metapack\SatelliteSite.StaticWebAssets.csproj", "{139171BD-31EE-4BBB-B13E-158011EFAF12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatelliteSite.StaticWebAssets.Basic", "metapack-mini\SatelliteSite.StaticWebAssets.Basic.csproj", "{1BF2A829-12F4-496D-888B-04A791022F07}"

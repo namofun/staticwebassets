@@ -19,7 +19,7 @@
   </Target>
 
   <PropertyGroup>
-    <StaticAssetVersion>1.1.0</StaticAssetVersion>
+    <StaticAssetVersion>1.1.1</StaticAssetVersion>
   </PropertyGroup>
 
 </Project>
