@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>18.5.13</PackageVersion>
+    <PackageStaticWebAssetBasePath>/lib/jsonviewer</PackageStaticWebAssetBasePath>
+    <Authors>summerstyle</Authors>
+    <Description>jsonviewer 2018 and PT Mono v8 placed at /lib/jsonviewer/**</Description>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+</Project>
